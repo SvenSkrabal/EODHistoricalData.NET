@@ -84,6 +84,9 @@ namespace EODHistoricalData.NET
 
         [JsonProperty("surprisePercent")]
         public string SurprisePercent { get; set; }
+
+        [JsonProperty("beforeAfterMarket")]
+        public string BeforeAfterMarket { get; set; }
     }
 
     public partial class Financials
